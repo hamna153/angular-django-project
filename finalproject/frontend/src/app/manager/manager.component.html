@@ -1,0 +1,24 @@
+
+<div class="container">
+    <div style="display: block">
+        <h4>Barchart</h4>
+      <canvas baseChart
+              [datasets]="barChartData"
+              [labels]="barChartLabels"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              [type]="'bar'">
+      </canvas>
+    </div><br><br><br>
+    <div>
+      <div style="display: block">
+        <h4>Linechart</h4>
+        <canvas baseChart
+                [datasets]="lineChartData"
+                [labels]="lineChartLabels"
+                [legend]="lineChartLegend"
+                [type]="'line'">
+        </canvas>
+      </div>
+    </div>
+     
